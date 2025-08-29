@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+body {
+    font-family: 'Space Grotesk', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+    cursor: url('tomato.png'), auto; /* Set the cursor to the tomato image */
+}
+
+#pomodoro-timer {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#time-display {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#log-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+#log-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-input {
+    margin-bottom: 20px;
+}
+
+#task {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#pomodoro-timer, #log-container {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#controls > button {
+    width: 100%;
+    margin: 5px 0;
+}
+
+#controls > button:first-child, #controls > button:nth-child(2) {
+    margin-right: 0;
+}
+
+#controls > button:nth-child(2) {
+    margin-right: 0;
+}
+
+#reset {
+    background-color: #dc3545;
+}
+
+#reset:hover {
+    background-color: #c82333;
+}
+
+#start {
+    background-color: #28a745;
+}
+
+#start:hover {
+    background-color: #218838;
+}
+
+#clear {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#clear:hover {
+    background-color: #000;
+    color: #fff;
+}
