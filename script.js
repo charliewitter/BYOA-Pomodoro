@@ -15,6 +15,7 @@ function updateTimeDisplay() {
     const minutes = Math.floor(timeLeft / 60);
     const seconds = timeLeft % 60;
     timeDisplay.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    document.title = `Timer: ${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
 }
 
 function startTimer() {
