@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f9;
+    background-color: #00ff44;
     cursor: url('tomato.png'), auto; /* Set the cursor to the tomato image */
 }
 
