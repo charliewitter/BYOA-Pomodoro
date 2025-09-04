@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 20px;
     background-color: #00ff44;
     cursor: url('tomato.png'), auto; /* Set the cursor to the tomato image */
 }
@@ -129,4 +129,10 @@ button:hover {
 #clear:hover {
     background-color: #000;
     color: #fff;
+}
+
+@media (max-width: 374px) {
+    #pomodoro-timer, #log-container {
+        margin: 10px;
+    }
 }
